@@ -5,5 +5,5 @@ Point Cloud Library tools on Docker.
 
 ```
 $ docker build -t pcl-tools .
-$ docker run --rm -it -v $(pwd):/work pcl-tools pcl_convert_pcd_ascii_binary input.pcd output.pcd 1
+$ docker run --rm -v $(pwd):/work pcl-tools pcl_convert_pcd_ascii_binary input.pcd output.pcd 1
 ```
